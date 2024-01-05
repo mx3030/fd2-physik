@@ -1,0 +1,92 @@
+\documentclass[12pt,a4paper]{scrartcl}
+
+\usepackage{subfiles}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{lmodern}
+
+\usepackage{geometry}
+\geometry{
+    left=20mm,
+    right=20mm,
+    top=20mm,
+    bottom=20mm
+}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[dvipsnames, table]{xcolor}
+\usepackage{graphicx}
+\graphicspath{{img/}{img/ink/}{ink}}
+
+\usepackage{tcolorbox}
+\definecolor{mygray}{RGB}{217,217,217}
+\definecolor{myorange}{RGB}{255, 153, 0}
+\usepackage{enumitem}
+
+\usepackage{tabularx}
+\definecolor{tablegray1}{RGB}{217, 217, 217}
+\definecolor{tablegray2}{RGB}{242, 242, 242}
+\renewcommand{\arraystretch}{1}
+\usepackage{float}
+
+% allgemein.tex
+\usepackage{circuitikz}
+\usetikzlibrary{tikzmark, decorations.pathreplacing, calligraphy}
+\makeatletter
+\def\parsecomma#1,#2\endparsecomma{\def\page@x{#1}\def\page@y{#2}}
+\tikzdeclarecoordinatesystem{page}{
+    \parsecomma#1\endparsecomma
+    \pgfpointanchor{current page}{north east}
+    % Save the upper right corner
+    \pgf@xc=\pgf@x%
+    \pgf@yc=\pgf@y%
+    % save the lower left corner
+    \pgfpointanchor{current page}{south west}
+    \pgf@xb=\pgf@x%
+    \pgf@yb=\pgf@y%
+    % Transform to the correct placement
+    \pgfmathparse{(\pgf@xc-\pgf@xb)/2.*\page@x+(\pgf@xc+\pgf@xb)/2.}
+    \expandafter\pgf@x\expandafter=\pgfmathresult pt
+    \pgfmathparse{(\pgf@yc-\pgf@yb)/2.*\page@y+(\pgf@yc+\pgf@yb)/2.}
+    \expandafter\pgf@y\expandafter=\pgfmathresult pt
+}
+\makeatother
+
+% diode.tex
+\newcommand{\myDAC}[4] % #1=name, #2=color, #3=horizontal space, #4=text content
+{
+    \draw[fill=#2, rotate=180] (#1) +(-16.5pt,0pt) --+(-6pt,6pt) --+(16.5pt,6pt) --+(16.5pt,-6pt) --+(-6pt,-6pt) --cycle;
+    \draw[] (#1) node[inner sep=0, anchor=center, xshift=#3]{\tiny{#4}};
+}
+
+\newcommand{\myADC}[4] % #1=name, #2=color, #3=horizontal space, #4=text content
+{
+    \draw[fill=#2] (#1)  +(-16.5pt,0pt) --+(-6pt,6pt) --+(16.5pt,6pt) --+(16.5pt,-6pt) --+(-6pt,-6pt) --cycle;
+    \draw[] (#1)node[inner sep=0, anchor=center, xshift=#3]{\tiny{#4}};
+}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\subfile{experiments/FreierFall/freierFall}
+\subfile{experiments/Induktion/induktion}
+\subfile{experiments/Kondensator/kondensator}
+\subfile{experiments/KondensatorEnergie/kondensatorEnergie}
+\subfile{experiments/Newton2/newton2}
+\subfile{experiments/Spule/spule}
+
+\subfile{experiments/Phyphox/Allgemein/allgemein}
+\subfile{experiments/Phyphox/Federpendel/federpendel}
+\subfile{experiments/Phyphox/Fadenpendel/fadenpendel}
+\subfile{experiments/Phyphox/Magnetfeld/magnetfeld}
+\subfile{experiments/Phyphox/Salat/salat}
+\subfile{experiments/Phyphox/Druck/druck}
+\subfile{experiments/Phyphox/Schallgeschwindigkeit/schall}
+\subfile{experiments/Phyphox/SchallFestkörper/schallFestkörper}
+\subfile{experiments/Phyphox/Fallschnur/fallschnur}
+\subfile{experiments/Phyphox/Diode/diode}
+
+\end{document}

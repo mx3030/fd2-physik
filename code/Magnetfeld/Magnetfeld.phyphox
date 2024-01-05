@@ -1,0 +1,69 @@
+<phyphox version="1.14" locale="en">
+    <title>Erdmagnetfeld</title>
+    <category>Fachdidaktik 2</category> 
+    <data-containers>
+        <container size="0">magX</container>
+        <container size="0">magY</container>
+        <container size="0">magZ</container>
+        <container size="0">magAccuracy</container> 
+        <container size="1">accY</container>
+        <container size="1">accZ</container>
+        <container size="0">tiltFlatUD</container>
+        <container size="0">inclination</container>
+    </data-containers>
+    <input>
+        <sensor type="magnetic_field">
+            <output component="x">magX</output>
+            <output component="y">magY</output>
+            <output component="z">magZ</output>
+            <output component="accuracy">magAccuracy</output>
+        </sensor>
+        <sensor type="accelerometer" rate="2" average="true">
+            <output component="y">accY</output>
+            <output component="z">accZ</output>
+        </sensor>
+    </input>
+    <views> 
+        <view label="Simple">
+              <value label="Accuracy">
+                <input>magAccuracy</input>
+                <map max="-1">Uncalibrated</map>
+                <map max="0">Raw data</map>
+                <map max="1">Low</map>
+                <map max="2">Medium</map>
+                <map max="3">High</map>
+            </value>
+            <separator height="0.5"/>
+             <value label="Magnetometer x" size="2" precision="2" unit="[[unit_short_micro_tesla]]" color="green">
+                <input>magX</input>
+            </value>
+            <separator height="0.5"/>
+            <value label="Magnetometer y" size="2" precision="2" unit="[[unit_short_micro_tesla]]" color="blue">
+                <input>magY</input>
+            </value>
+            <separator height="0.5"/>
+            <value label="Magnetometer z" size="2" precision="2" unit="[[unit_short_micro_tesla]]" color="yellow">
+                <input>magZ</input>
+            </value> 
+            <separator height="0.5"/>
+            <value label="Tilt up/down" size="2" precision="2" scientific="false" unit="[[unit_short_degree]]" factor="1">
+                <input>tiltFlatUD</input>
+            </value>
+            <separator height="0.5"/>
+            <value label="Inklination" size="2" precision="2" scientific="false" unit="[[unit_short_degree]]" factor="1">
+                <input>inclination</input>
+            </value>
+        </view>
+    </views> 
+    <analysis sleep="0.5">
+        <formula formula="atan2([1_],[2_])*57.29577951">
+            <input clear="false">accY</input>
+            <input clear="false">accZ</input>
+            <output clear="false">tiltFlatUD</output>
+        </formula> 
+        <formula formula="90-[1_]">
+            <input clear="false">tiltFlatUD</input>
+            <output clear="false">inclination</output>
+        </formula>
+    </analysis> 
+</phyphox>

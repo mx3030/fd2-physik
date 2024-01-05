@@ -1,0 +1,178 @@
+<phyphox xmlns="http://phyphox.org/xml" xmlns:editor="http://phyphox.org/editor/xml" version="1.7" editor:version="1.0" locale="en">
+    <title>Kennlinien von Dioden</title>
+    <category>Fachdidaktik 2</category>
+    <data-containers>
+        <container size="1000" static="true">empty</container>
+        <container size="0">t</container>
+        <container size="0" init="1">color</container>
+        <container size="0" init="1">old_color</container>
+        <container size="1000" static="false">mcp_ch0</container>
+        <container size="1000" static="false">mcp_red</container>
+        <container size="1000" static="false">mcp_yellow</container>
+        <container size="1000" static="false">mcp_green</container>
+        <container size="1000" static="false">mcp_white</container>
+        <container size="1000" static="false">mcp_normal</container>
+        <container size="1000" static="false">mcp_zener</container>
+        <container size="1000" static="false">current</container>
+        <container size="1000" static="false">current_red</container>
+        <container size="1000" static="false">current_yellow</container>
+        <container size="1000" static="false">current_green</container>
+        <container size="1000" static="false">current_white</container>
+        <container size="1000" static="false">current_normal</container>
+        <container size="1000" static="false">current_zener</container>
+    </data-containers>
+    <input> 
+        <bluetooth mode="notification" subscribeOnStart="false">
+            <output char="cddf1002-30f7-4671-8b43-5e40ba53514a" conversion="float32LittleEndian">mcp_ch0</output>
+            <output char="cddf1002-30f7-4671-8b43-5e40ba53514a" conversion="float32LittleEndian" offset="4">current</output>
+            <output char="cddf1002-30f7-4671-8b43-5e40ba53514a" extra="time">t</output>
+        </bluetooth>
+    </input> 
+    <views>
+        <view label="LED">
+            <value label="Spannung U= " size="3" precision="2" unit="V" color="white">
+                <input>mcp_ch0</input>
+            </value>
+            <value label="Stromstärke I= " size="3" precision="2" unit="mA" color="white">
+                <input>current</input>
+            </value>
+            <separator height="2"></separator> 
+            <graph aspectRatio="2.5" style="dots" lineWidth="1" partialUpdate="true" labelX="U_Diode (V)" labelY="I_Diode (mA)">
+                <input axis="x">mcp_red</input>
+                <input axis="y" color="red">current_red</input>
+                <input axis="x">mcp_yellow</input>
+                <input axis="y" color="yellow">current_yellow</input>
+                <input axis="x">mcp_green</input>
+                <input axis="y" color="green">current_green</input>
+                <input axis="x">mcp_white</input>
+                <input axis="y" color="white">current_white</input>
+            </graph> 
+            <separator height="2"></separator> 
+            <edit label="Farbe wählen" signed="false" decimal="false" min="1" max="4" default="1">
+                <output>color</output>
+            </edit>
+            <info color="red" label="1: rot" bold="true" size="1.5" align="center"></info>
+            <info color="yellow" label="2: gelb" bold="true" size="1.5" align="center"></info>
+            <info color="green" label="3: grün" bold="true" size="1.5" align="center"></info>
+            <info color="white" label="4: weiß" bold="true" size="1.5" align="center"></info> 
+        </view>
+        <view label="Weitere Dioden">
+            <value label="Spannung U= " size="3" precision="2" unit="V" color="white">
+                <input>mcp_ch0</input>
+            </value>
+            <value label="Stromstärke I= " size="3" precision="2" unit="mA" color="white">
+                <input>current</input>
+            </value>
+            <separator height="2"></separator> 
+            <graph aspectRatio="2.5" style="dots" lineWidth="1" partialUpdate="true" labelX="U_Diode (V)" labelY="I_Diode (mA)"> 
+                <input axis="x">mcp_normal</input>
+                <input axis="y" color="orange">current_normal</input>
+                <input axis="x">mcp_zener</input>
+                <input axis="y" color="blue">current_zener</input>
+            </graph> 
+            <separator height="2"></separator> 
+            <edit label="Farbe wählen" signed="false" decimal="false" min="5" max="6" default="5" align="left">
+                <output>color</output>
+            </edit> 
+            <info color="orange" label="5: normale Diode (keine LED)" bold="true" size="1.5" align="center"></info>
+            <info color="blue" label="6: Zener-Diode (spezifische Durchbruchspannung)" bold="true" size="1.5" align="center"></info>
+        </view>
+    </views>
+    <analysis>
+        <if greater="true" less="true">
+            <input clear="false">color</input>
+            <input clear="false">old_color</input>
+            <input clear="false">empty</input>
+            <output>current</output>
+        </if>
+        <if greater="true" less="true">
+            <input clear="false">color</input>
+            <input clear="false">old_color</input>
+            <input clear="false">empty</input>
+            <output>mcp_ch0</output>
+        </if>
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">1</input>
+            <input clear="false">current</input>
+            <output>current_red</output>
+        </if>
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">1</input>
+            <input clear="false">mcp_ch0</input>
+            <output>mcp_red</output>
+        </if>
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">2</input>
+            <input clear="false">current</input>
+            <output>current_yellow</output>
+        </if>
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">2</input>
+            <input clear="false">mcp_ch0</input>
+            <output>mcp_yellow</output>
+        </if>
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">3</input>
+            <input clear="false">current</input>
+            <output>current_green</output>
+        </if>
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">3</input>
+            <input clear="false">mcp_ch0</input>
+            <output>mcp_green</output>
+        </if>
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">4</input>
+            <input clear="false">current</input>
+            <output>current_white</output>
+        </if>
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">4</input>
+            <input clear="false">mcp_ch0</input>
+            <output>mcp_white</output>
+        </if>
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">5</input>
+            <input clear="false">current</input>
+            <output>current_normal</output>
+        </if>
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">5</input>
+            <input clear="false">mcp_ch0</input>
+            <output>mcp_normal</output>
+        </if>
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">6</input>
+            <input clear="false">current</input>
+            <output>current_zener</output>
+        </if>
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">6</input>
+            <input clear="false">mcp_ch0</input>
+            <output>mcp_zener</output>
+        </if>
+        <append>
+            <input clear="false">color</input>
+            <output>old_color</output>
+        </append>
+    </analysis>
+    <export>
+        <set name="export_all">
+            <data name="time">t</data>
+            <data name="mcp_ch0">mcp_ch0</data>  
+            <data name="current">current</data>
+        </set>
+    </export>
+</phyphox>

@@ -1,0 +1,188 @@
+<phyphox xmlns="http://phyphox.org/xml" xmlns:editor="http://phyphox.org/editor/xml" version="1.7" editor:version="1.0" locale="en">
+    <title>Kennlinien von Dioden</title>
+    <category>Fachdidaktik 2</category>
+    <data-containers>
+        <container size="1000" static="true">empty</container>
+        <container size="0" init="1">color</container>
+        <container size="0" init="1">old_color</container>
+        
+        <container size="1">acc_result</container>
+        <container size="1">acc_time</container>
+        <container size="1">gyr_squared_result</container>
+        <container size="1">gyr_result</container>
+        <container size="1">gyr_time</container>
+        <container size="1">t_temp</container>
+        <container size="1">t_result</container>
+        
+        <container size="0">acc</container>
+        <container size="0">acc_red</container>
+        <container size="0">acc_yellow</container>
+        <container size="0">acc_green</container>
+        <container size="0">acc_white</container>
+        
+        <container size="0">gyr</container>
+        <container size="0">gyr_red</container>
+        <container size="0">gyr_yellow</container>
+        <container size="0">gyr_green</container>
+        <container size="0">gyr_white</container>
+        
+        <container size="0">gyr_squared</container>
+        <container size="0">gyr_squared_red</container>
+        <container size="0">gyr_squared_yellow</container>
+        <container size="0">gyr_squared_green</container>
+        <container size="0">gyr_squared_white</container>
+        
+        <container size="0">t</container>
+    </data-containers>
+    <input> 
+        <sensor type="linear_acceleration" rate="2" average="true">
+            <output component="abs">acc_result</output>
+            <output component="t">acc_time</output>
+        </sensor>
+        <sensor type="gyroscope" rate="2" average="true">
+            <output component="abs">gyr_result</output>
+            <output component="t">gyr_time</output>
+        </sensor>
+    </input> 
+    <views>
+         <view label="Relation">
+            <graph label="Acceleration" labelX="Angular velocity ω" unitX="[[unit_short_radian_per_second]]" labelY="Acceleration a" unitY="[[unit_short_meter_per_square_second]]" unitYperX="[[unit_short_meter_per_second]]" partialUpdate="false" style="dots">
+                <input axis="x">gyr_red</input>
+                <input axis="y" color="red">acc_red</input>
+                <input axis="x">gyr_yellow</input>
+                <input axis="y" color="yellow">acc_yellow</input>
+                <input axis="x">gyr_green</input>
+                <input axis="y" color="green">acc_green</input>
+                <input axis="x">gyr_white</input>
+                <input axis="y" color="white">acc_white</input>
+            </graph>
+            <graph label="Square plot" labelX="ω²" unitX="rad/s²" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="[[unit_short_meter]]" partialUpdate="false" style="dots">
+                <input axis="x">gyr_squared_red</input>
+                <input axis="y" color="red">acc_red</input>
+                <input axis="x">gyr_squared_yellow</input>
+                <input axis="y" color="yellow">acc_yellow</input>
+                <input axis="x">gyr_squared_green</input>
+                <input axis="y" color="green">acc_green</input>
+                <input axis="x">gyr_squared_white</input>
+                <input axis="y" color="red">acc_white</input>
+            </graph>
+            <separator height="2"></separator> 
+            <edit label="Farbe wählen" signed="false" decimal="false" min="1" max="4" default="1">
+                <output>color</output>
+            </edit>
+            <info color="red" label="1: rot" bold="true" size="1.5" align="center"></info>
+            <info color="yellow" label="2: gelb" bold="true" size="1.5" align="center"></info>
+            <info color="green" label="3: grün" bold="true" size="1.5" align="center"></info>
+            <info color="white" label="4: weiß" bold="true" size="1.5" align="center"></info> 
+        </view> 
+    </views>
+    <analysis sleep="0.5">
+        <!--original-->
+        <add>
+          <input clear="true">acc_time</input>
+          <input clear="true">gyr_time</input>
+          <output clear="true">t_temp</output>
+        </add>
+        <divide>
+          <input clear="true">t_temp</input>
+          <input type="value">2</input>
+          <output clear="true">t_result</output>
+        </divide>
+        <multiply>
+          <input clear="false">gyr_result</input>
+          <input clear="false">gyr_result</input>
+          <output clear="true">gyr_squared_result</output>
+        </multiply>
+        <match>
+          <input clear="true">acc_result</input>
+          <input clear="true">gyr_result</input>
+          <input clear="true">gyr_squared_result</input>
+          <input clear="true">t_result</input>
+          <output clear="false">acc</output>
+          <output clear="false">gyr</output>
+          <output clear="false">gyr_squared</output>
+          <output clear="false">t</output>
+        </match>
+         
+        <!--fill buffers for red color-->
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">1</input>
+            <input clear="false">acc</input>
+            <output>acc_red</output>
+        </if>
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">1</input>
+            <input clear="false">gyr</input>
+            <output>gyr_red</output>
+        </if>
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">1</input>
+            <input clear="false">gyr_squared</input>
+            <output>gyr_squared_red</output>
+        </if>
+ 
+        <!--fill buffers for yellow color-->
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">2</input>
+            <input clear="false">acc</input>
+            <output>acc_yellow</output>
+        </if>
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">2</input>
+            <input clear="false">gyr</input>
+            <output>gyr_yellow</output>
+        </if>
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">2</input>
+            <input clear="false">gyr_squared</input>
+            <output>gyr_squared_yellow</output>
+        </if>
+
+
+        <!--fill buffers for green color-->
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">3</input>
+            <input clear="false">acc</input>
+            <output>acc_green</output>
+        </if>
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">3</input>
+            <input clear="false">gyr</input>
+            <output>gyr_green</output>
+        </if>
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">3</input>
+            <input clear="false">gyr_squared</input>
+            <output>gyr_squared_green</output>
+        </if>
+
+        <!--fill buffers for white color-->
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">4</input>
+            <input clear="false">acc</input>
+            <output>acc_white</output>
+        </if>
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">4</input>
+            <input clear="false">gyr</input>
+            <output>gyr_white</output>
+        </if>
+        <if equal="true">
+            <input clear="false">color</input>
+            <input type="value">4</input>
+            <input clear="false">gyr_squared</input>
+            <output>gyr_squared_white</output>
+        </if>
+    </analysis>
+</phyphox>
