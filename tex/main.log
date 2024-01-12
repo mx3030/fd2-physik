@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.29)  12 JAN 2024 03:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.29)  12 JAN 2024 16:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -962,16 +962,16 @@ File: experiments/Phyphox/Fallschnur//img/schraube.png Graphic file (type png)
 <use experiments/Phyphox/Fallschnur//img/schraube.png>
 Package pdftex.def Info: experiments/Phyphox/Fallschnur//img/schraube.png  used on input line 43.
 (pdftex.def)             Requested size: 101.79079pt x 94.23485pt.
-<experiments/Phyphox/Fallschnur//img/versuchsaufbau.png, id=101, 1230.5975pt x 4047.12pt>
+<experiments/Phyphox/Fallschnur//img/versuchsaufbau.png, id=101, 1151.30125pt x 3993.92125pt>
 File: experiments/Phyphox/Fallschnur//img/versuchsaufbau.png Graphic file (type png)
 <use experiments/Phyphox/Fallschnur//img/versuchsaufbau.png>
 Package pdftex.def Info: experiments/Phyphox/Fallschnur//img/versuchsaufbau.png  used on input line 51.
-(pdftex.def)             Requested size: 90.4784pt x 297.53076pt.
-<experiments/Phyphox/Fallschnur//img/app.png, id=102, 642.4pt x 867.24pt>
+(pdftex.def)             Requested size: 90.4784pt x 313.8526pt.
+<experiments/Phyphox/Fallschnur//img/app.png, id=102, 642.4pt x 870.25125pt>
 File: experiments/Phyphox/Fallschnur//img/app.png Graphic file (type png)
 <use experiments/Phyphox/Fallschnur//img/app.png>
 Package pdftex.def Info: experiments/Phyphox/Fallschnur//img/app.png  used on input line 73.
-(pdftex.def)             Requested size: 118.52647pt x 160.0002pt.
+(pdftex.def)             Requested size: 118.52647pt x 160.55576pt.
 
 Overfull \hbox (28.04808pt too wide) in paragraph at lines 73--74
 [][] 
@@ -1054,7 +1054,7 @@ Here is how much of TeX's memory you used:
  36 hyphenation exceptions out of 8191
  108i,19n,106p,10899b,1353s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (16 pages, 56085626 bytes).
+Output written on main.pdf (16 pages, 56892612 bytes).
 PDF statistics:
  203 PDF objects out of 1000 (max. 8388607)
  93 compressed objects within 1 object stream

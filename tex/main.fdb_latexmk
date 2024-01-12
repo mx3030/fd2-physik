@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1705025305 "main.tex" "main.pdf" "main" 1705025318 0
+["pdflatex"] 1705074887 "main.tex" "main.pdf" "main" 1705074900 0
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -225,10 +225,10 @@
   "experiments/Phyphox/Fadenpendel//img/app.png" 1704335970 2758129 eebc7367b732adcddb7b129535fd87ba ""
   "experiments/Phyphox/Fadenpendel//img/versuchsaufbau.jpg" 1703211427 862243 ec0d7760002df34b4302aadfe40ebb5c ""
   "experiments/Phyphox/Fadenpendel/fadenpendel.tex" 1704421902 3099 6e2b21ebf88da231a39b2b3f499b0715 ""
-  "experiments/Phyphox/Fallschnur//img/app.png" 1705005253 2229338 60bd953cc573f7518f904714d6f0fa2f ""
+  "experiments/Phyphox/Fallschnur//img/app.png" 1705074505 2236945 e850b884f17b4065cc054432d8a0d767 ""
   "experiments/Phyphox/Fallschnur//img/schraube.png" 1705004640 7472819 4ab4f1f43ba5ee2a53bf2a481c854e3a ""
-  "experiments/Phyphox/Fallschnur//img/versuchsaufbau.png" 1705011845 5499548 061bbeb89e625b32d8f95f45484a790f ""
-  "experiments/Phyphox/Fallschnur/fallschnur.tex" 1705013817 5645 24ff94ae6496b05e3d539ed697192e76 ""
+  "experiments/Phyphox/Fallschnur//img/versuchsaufbau.png" 1705074795 6244630 54eef7b7ca93b77fce5a17090bd1fdb2 ""
+  "experiments/Phyphox/Fallschnur/fallschnur.tex" 1705074882 5625 1b6276e3007a50d0899f298c99e6d0ce ""
   "experiments/Phyphox/Federpendel//img/halterung2.jpg" 1704335939 1145190 10bf5b27d505a4f456254db7679200c6 ""
   "experiments/Phyphox/Federpendel//img/versuchsaufbau.jpg" 1702865266 1030646 4458a8c2214b48fc9d3e21889670be41 ""
   "experiments/Phyphox/Federpendel/federpendel.tex" 1705022767 2862 f156e0a5018350223ffe00f5459bd7b4 ""
@@ -255,8 +255,8 @@
   "experiments/Phyphox/Schallgeschwindigkeit/schall.tex" 1704422344 2220 1998b0ca15162fc03069dbd2441b7314 ""
   "experiments/Spule//img/hochspannung.png" 1702788230 104705 7ebf1316fb19783bf8727f201b9f1651 ""
   "experiments/Spule//img/versuchsaufbau.png" 1702431402 18833529 27bc140cd497cc2083ab81051f253d01 ""
-  "experiments/Spule/spule.tex" 1705025296 4086 c5be541f06eb72787a38f7a95469754e ""
-  "main.aux" 1705025318 1348 5e730a7da2ddba4fd0d8a1ca81f2f629 "pdflatex"
+  "experiments/Spule/spule.tex" 1705025400 4086 c5be541f06eb72787a38f7a95469754e ""
+  "main.aux" 1705074900 1348 65e7d81f670cd1f20739fc3ae52a27d7 "pdflatex"
   "main.tex" 1705022435 2882 c4de48fcc6af7d2eb67fcb9fc1600d9c ""
   (generated)
   "main.aux"
