@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.29)  12 JAN 2024 18:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.29)  12 JAN 2024 19:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -883,11 +883,11 @@ File: experiments/Phyphox/Fadenpendel//img/versuchsaufbau.jpg Graphic file (type
 <use experiments/Phyphox/Fadenpendel//img/versuchsaufbau.jpg>
 Package pdftex.def Info: experiments/Phyphox/Fadenpendel//img/versuchsaufbau.jpg  used on input line 36.
 (pdftex.def)             Requested size: 85.9542pt x 185.52058pt.
-<experiments/Phyphox/Fadenpendel//img/app.png, id=68, 641.39626pt x 1076.02pt>
-File: experiments/Phyphox/Fadenpendel//img/app.png Graphic file (type png)
-<use experiments/Phyphox/Fadenpendel//img/app.png>
-Package pdftex.def Info: experiments/Phyphox/Fadenpendel//img/app.png  used on input line 52.
-(pdftex.def)             Requested size: 99.52678pt x 166.96198pt.
+<experiments/Phyphox/Fadenpendel//img/app2.png, id=68, 481.04718pt x 807.015pt>
+File: experiments/Phyphox/Fadenpendel//img/app2.png Graphic file (type png)
+<use experiments/Phyphox/Fadenpendel//img/app2.png>
+Package pdftex.def Info: experiments/Phyphox/Fadenpendel//img/app2.png  used on input line 52.
+(pdftex.def)             Requested size: 99.52678pt x 166.96608pt.
 
 Overfull \hbox (9.04839pt too wide) in paragraph at lines 52--53
 [][] 
@@ -914,7 +914,7 @@ File: experiments/Phyphox/Salat//img/qr_code.png Graphic file (type png)
 <use experiments/Phyphox/Salat//img/qr_code.png>
 Package pdftex.def Info: experiments/Phyphox/Salat//img/qr_code.png  used on input line 74.
 (pdftex.def)             Requested size: 67.85707pt x 67.8561pt.
- [9 <./experiments/Phyphox/Fadenpendel//img/versuchsaufbau.jpg> <./experiments/Phyphox/Fadenpendel//img/app.png>]) (./experiments/Phyphox/Magnetfeld/magnetfeld.tex
+ [9 <./experiments/Phyphox/Fadenpendel//img/versuchsaufbau.jpg> <./experiments/Phyphox/Fadenpendel//img/app2.png>]) (./experiments/Phyphox/Magnetfeld/magnetfeld.tex
 <experiments/Phyphox/Magnetfeld//img/versuchsaufbau.jpg, id=80, 375.4025pt x 829.0975pt>
 File: experiments/Phyphox/Magnetfeld//img/versuchsaufbau.jpg Graphic file (type jpg)
 <use experiments/Phyphox/Magnetfeld//img/versuchsaufbau.jpg>
@@ -1052,14 +1052,14 @@ Package pdftex.def Info: experiments/Phyphox/Diode//img/qr_code_phyphox.png  use
 [15 <./experiments/Phyphox/SchallFestkörper//img/versuchsaufbau.jpg> <./experiments/Phyphox/SchallFestkörper//ink/eigenfrequenz.pdf> <./experiments/Phyphox/SchallFestkörper//img/n1.png>]) [16 <./experiments/Phyphox/Diode//img/breadboard_qr.png> <./experiments/Phyphox/Diode//img/screen.jpg> <./experiments/Phyphox/Diode//img/qr_code_phyphox.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  41358 strings out of 477867
- 1057141 string characters out of 5834553
+ 1057147 string characters out of 5834553
  1898074 words of memory out of 5000000
  60937 multiletter control sequences out of 15000+600000
  540976 words of font info for 56 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  108i,19n,106p,10899b,1353s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (16 pages, 56434184 bytes).
+Output written on main.pdf (16 pages, 56434493 bytes).
 PDF statistics:
  205 PDF objects out of 1000 (max. 8388607)
  93 compressed objects within 1 object stream
