@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1705085576 "main.tex" "main.pdf" "main" 1705085588 0
+["pdflatex"] 1705087089 "main.tex" "main.pdf" "main" 1705087102 0
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -219,7 +219,7 @@
   "experiments/Phyphox/Diode//img/breadboard_qr.png" 1705076916 8031582 8195f9fa16f61538aee525fa2a4014e1 ""
   "experiments/Phyphox/Diode//img/qr_code_phyphox.png" 1704164464 2906 c15bf17fc13ed0a2386ee071f9ab6f95 ""
   "experiments/Phyphox/Diode//img/screen.jpg" 1704162930 189701 a6c1eef694cf176c6a499bb66160558d ""
-  "experiments/Phyphox/Diode/diode.tex" 1705085575 3739 662b49f3a5afa9298f92040e5abd481b ""
+  "experiments/Phyphox/Diode/diode.tex" 1705087087 3739 d8eef22bb11d51b17e716519c17fa344 ""
   "experiments/Phyphox/Druck//img/versuchsaufbau.jpg" 1704202972 2834684 e59f796f9727e822b696453b3771d613 ""
   "experiments/Phyphox/Druck/druck.tex" 1705085315 3197 e4a535a5ff8287f19048d4a23249e466 ""
   "experiments/Phyphox/Fadenpendel//img/app2.png" 1705085075 146989 83c9dcb2eb235d6e622f4200d96b2885 ""
@@ -257,7 +257,7 @@
   "experiments/Spule//img/hochspannung.png" 1702788230 104705 7ebf1316fb19783bf8727f201b9f1651 ""
   "experiments/Spule//img/versuchsaufbau.png" 1702431402 18833529 27bc140cd497cc2083ab81051f253d01 ""
   "experiments/Spule/spule.tex" 1705084597 4087 7a8a6a0ab8a40bbb9b347932d8b69424 ""
-  "main.aux" 1705085588 1348 95ec7ed53f4f01a4b50a8d62c2f28ab5 "pdflatex"
+  "main.aux" 1705087102 1348 95ec7ed53f4f01a4b50a8d62c2f28ab5 "pdflatex"
   "main.tex" 1705022435 2882 c4de48fcc6af7d2eb67fcb9fc1600d9c ""
   (generated)
   "main.aux"
