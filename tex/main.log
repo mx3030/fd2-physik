@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.29)  5 JAN 2024 05:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.29)  12 JAN 2024 03:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -790,8 +790,8 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 31--71
 <experiments/Kondensator//img/cassy.png, id=22, 1626.075pt x 2168.1pt>
 File: experiments/Kondensator//img/cassy.png Graphic file (type png)
 <use experiments/Kondensator//img/cassy.png>
-Package pdftex.def Info: experiments/Kondensator//img/cassy.png  used on input line 85.
-(pdftex.def)             Requested size: 92.29214pt x 123.03381pt.
+Package pdftex.def Info: experiments/Kondensator//img/cassy.png  used on input line 91.
+(pdftex.def)             Requested size: 108.57822pt x 144.76901pt.
 [2 <./experiments/Newton2//img/versuchsaufbau.jpg>]) (./experiments/KondensatorEnergie/kondensatorEnergie.tex
 <experiments/KondensatorEnergie//img/versuchsaufbau.png, id=27, 3117.6475pt x 2340.745pt>
 File: experiments/KondensatorEnergie//img/versuchsaufbau.png Graphic file (type png)
@@ -819,8 +819,8 @@ File: experiments/Spule//img/hochspannung.png Graphic file (type png)
 <use experiments/Spule//img/hochspannung.png>
 Package pdftex.def Info: experiments/Spule//img/hochspannung.png  used on input line 80.
 (pdftex.def)             Requested size: 45.24265pt x 40.13936pt.
-[3 <./experiments/Kondensator//img/versuchsaufbau.JPG> <./experiments/Kondensator//img/cassy.PNG>]) (./experiments/Induktion/induktion.tex [4 <./experiments/KondensatorEnergie//img/versuchsaufbau.png>]
-<experiments/Induktion//img/versuchsaufbau.png, id=38, 2939.98375pt x 1985.4175pt>
+[3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc} <./experiments/Kondensator//img/versuchsaufbau.JPG> <./experiments/Kondensator//img/cassy.PNG>]) (./experiments/Induktion/induktion.tex [4 <./experiments/KondensatorEnergie//img/versuchsaufbau.png>]
+<experiments/Induktion//img/versuchsaufbau.png, id=41, 2939.98375pt x 1985.4175pt>
 File: experiments/Induktion//img/versuchsaufbau.png Graphic file (type png)
 <use experiments/Induktion//img/versuchsaufbau.png>
 Package pdftex.def Info: experiments/Induktion//img/versuchsaufbau.png  used on input line 43.
@@ -830,28 +830,28 @@ Overfull \hbox (13.75803pt too wide) in paragraph at lines 27--45
 []$[]$   $[]$ 
  []
 
-<experiments/Induktion//img/hochspannung.png, id=39, 1284.8pt x 1140.26pt>
+<experiments/Induktion//img/hochspannung.png, id=42, 1284.8pt x 1140.26pt>
 File: experiments/Induktion//img/hochspannung.png Graphic file (type png)
 <use experiments/Induktion//img/hochspannung.png>
 Package pdftex.def Info: experiments/Induktion//img/hochspannung.png  used on input line 72.
 (pdftex.def)             Requested size: 45.24265pt x 40.13936pt.
 ) [5 <./experiments/Spule//img/versuchsaufbau.png> <./experiments/Spule//img/hochspannung.png>] (./experiments/Phyphox/Allgemein/allgemein.tex
-<experiments/Phyphox/Allgemein//img/acc.png, id=46, 772.8875pt x 883.3pt>
+<experiments/Phyphox/Allgemein//img/acc.png, id=48, 772.8875pt x 883.3pt>
 File: experiments/Phyphox/Allgemein//img/acc.png Graphic file (type png)
 <use experiments/Phyphox/Allgemein//img/acc.png>
 Package pdftex.def Info: experiments/Phyphox/Allgemein//img/acc.png  used on input line 36.
 (pdftex.def)             Requested size: 108.57726pt x 124.07898pt.
-<experiments/Phyphox/Allgemein//img/fernzugriff2.png, id=47, 642.4pt x 1089.06876pt>
+<experiments/Phyphox/Allgemein//img/fernzugriff2.png, id=49, 642.4pt x 1089.06876pt>
 File: experiments/Phyphox/Allgemein//img/fernzugriff2.png Graphic file (type png)
 <use experiments/Phyphox/Allgemein//img/fernzugriff2.png>
 Package pdftex.def Info: experiments/Phyphox/Allgemein//img/fernzugriff2.png  used on input line 44.
 (pdftex.def)             Requested size: 90.4784pt x 153.38257pt.
-<experiments/Phyphox/Allgemein//img/fernzugriff3.png, id=48, 642.4pt x 1094.0875pt>
+<experiments/Phyphox/Allgemein//img/fernzugriff3.png, id=50, 642.4pt x 1094.0875pt>
 File: experiments/Phyphox/Allgemein//img/fernzugriff3.png Graphic file (type png)
 <use experiments/Phyphox/Allgemein//img/fernzugriff3.png>
 Package pdftex.def Info: experiments/Phyphox/Allgemein//img/fernzugriff3.png  used on input line 47.
 (pdftex.def)             Requested size: 90.4784pt x 154.08939pt.
-<experiments/Phyphox/Allgemein//img/editor.png, id=49, 944.52875pt x 651.43375pt>
+<experiments/Phyphox/Allgemein//img/editor.png, id=51, 944.52875pt x 651.43375pt>
 File: experiments/Phyphox/Allgemein//img/editor.png Graphic file (type png)
 <use experiments/Phyphox/Allgemein//img/editor.png>
 Package pdftex.def Info: experiments/Phyphox/Allgemein//img/editor.png  used on input line 55.
@@ -861,8 +861,8 @@ Underfull \hbox (badness 1005) in paragraph at lines 59--60
 \T1/lmr/m/n/12 ein Experiment-Editor be-reit-ge-stellt (htt-
  []
 
-[6{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc} <./experiments/Induktion//img/versuchsaufbau.png> <./experiments/Induktion//img/hochspannung.png>]) (./experiments/Phyphox/Federpendel/federpendel.tex
-<experiments/Phyphox/Federpendel//img/halterung2.jpg, id=56, 1688.3075pt x 1286.8075pt>
+[6 <./experiments/Induktion//img/versuchsaufbau.png> <./experiments/Induktion//img/hochspannung.png>]) (./experiments/Phyphox/Federpendel/federpendel.tex
+<experiments/Phyphox/Federpendel//img/halterung2.jpg, id=57, 1688.3075pt x 1286.8075pt>
 File: experiments/Phyphox/Federpendel//img/halterung2.jpg Graphic file (type jpg)
 <use experiments/Phyphox/Federpendel//img/halterung2.jpg>
 Package pdftex.def Info: experiments/Phyphox/Federpendel//img/halterung2.jpg  used on input line 43.
@@ -872,18 +872,18 @@ Overfull \hbox (1.05978pt too wide) in paragraph at lines 28--45
 []$[]$   $[]$ 
  []
 
-<experiments/Phyphox/Federpendel//img/versuchsaufbau.jpg, id=57, 1026.83624pt x 2934.965pt>
+<experiments/Phyphox/Federpendel//img/versuchsaufbau.jpg, id=58, 1026.83624pt x 2934.965pt>
 File: experiments/Phyphox/Federpendel//img/versuchsaufbau.jpg Graphic file (type jpg)
 <use experiments/Phyphox/Federpendel//img/versuchsaufbau.jpg>
 Package pdftex.def Info: experiments/Phyphox/Federpendel//img/versuchsaufbau.jpg  used on input line 52.
 (pdftex.def)             Requested size: 90.4784pt x 258.58224pt.
 [7 <./experiments/Phyphox/Allgemein//img/acc.png> <./experiments/Phyphox/Allgemein//img/fernzugriff2.png> <./experiments/Phyphox/Allgemein//img/fernzugriff3.png> <./experiments/Phyphox/Allgemein//img/editor.png>]) (./experiments/Phyphox/Fadenpendel/fadenpendel.tex
-<experiments/Phyphox/Fadenpendel//img/versuchsaufbau.jpg, id=66, 924.45375pt x 1995.455pt>
+<experiments/Phyphox/Fadenpendel//img/versuchsaufbau.jpg, id=67, 924.45375pt x 1995.455pt>
 File: experiments/Phyphox/Fadenpendel//img/versuchsaufbau.jpg Graphic file (type jpg)
 <use experiments/Phyphox/Fadenpendel//img/versuchsaufbau.jpg>
 Package pdftex.def Info: experiments/Phyphox/Fadenpendel//img/versuchsaufbau.jpg  used on input line 36.
 (pdftex.def)             Requested size: 85.9542pt x 185.52058pt.
-<experiments/Phyphox/Fadenpendel//img/app.png, id=67, 641.39626pt x 1076.02pt>
+<experiments/Phyphox/Fadenpendel//img/app.png, id=68, 641.39626pt x 1076.02pt>
 File: experiments/Phyphox/Fadenpendel//img/app.png Graphic file (type png)
 <use experiments/Phyphox/Fadenpendel//img/app.png>
 Package pdftex.def Info: experiments/Phyphox/Fadenpendel//img/app.png  used on input line 52.
@@ -894,59 +894,59 @@ Overfull \hbox (9.04839pt too wide) in paragraph at lines 52--53
  []
 
 [8 <./experiments/Phyphox/Federpendel//img/halterung2.jpg> <./experiments/Phyphox/Federpendel//img/versuchsaufbau.jpg>]) (./experiments/Phyphox/Salat/salat.tex
-<experiments/Phyphox/Salat//img/versuchsaufbau.jpg, id=71, 1656.1875pt x 1386.17876pt>
+<experiments/Phyphox/Salat//img/versuchsaufbau.jpg, id=72, 1656.1875pt x 1386.17876pt>
 File: experiments/Phyphox/Salat//img/versuchsaufbau.jpg Graphic file (type jpg)
 <use experiments/Phyphox/Salat//img/versuchsaufbau.jpg>
 Package pdftex.def Info: experiments/Phyphox/Salat//img/versuchsaufbau.jpg  used on input line 38.
 (pdftex.def)             Requested size: 158.34238pt x 132.51324pt.
-<experiments/Phyphox/Salat//img/app1.png, id=72, 642.4pt x 1093.08376pt>
+<experiments/Phyphox/Salat//img/app1.png, id=73, 642.4pt x 1093.08376pt>
 File: experiments/Phyphox/Salat//img/app1.png Graphic file (type png)
 <use experiments/Phyphox/Salat//img/app1.png>
 Package pdftex.def Info: experiments/Phyphox/Salat//img/app1.png  used on input line 60.
 (pdftex.def)             Requested size: 99.5283pt x 169.34283pt.
-<experiments/Phyphox/Salat//img/app2.png, id=73, 642.4pt x 1095.09125pt>
+<experiments/Phyphox/Salat//img/app2.png, id=74, 642.4pt x 1095.09125pt>
 File: experiments/Phyphox/Salat//img/app2.png Graphic file (type png)
 <use experiments/Phyphox/Salat//img/app2.png>
 Package pdftex.def Info: experiments/Phyphox/Salat//img/app2.png  used on input line 63.
 (pdftex.def)             Requested size: 99.5283pt x 169.65384pt.
-<experiments/Phyphox/Salat//img/qr_code.png, id=74, 165.61874pt x 165.61874pt>
+<experiments/Phyphox/Salat//img/qr_code.png, id=75, 165.61874pt x 165.61874pt>
 File: experiments/Phyphox/Salat//img/qr_code.png Graphic file (type png)
 <use experiments/Phyphox/Salat//img/qr_code.png>
 Package pdftex.def Info: experiments/Phyphox/Salat//img/qr_code.png  used on input line 74.
 (pdftex.def)             Requested size: 67.85707pt x 67.8561pt.
  [9 <./experiments/Phyphox/Fadenpendel//img/versuchsaufbau.jpg> <./experiments/Phyphox/Fadenpendel//img/app.png>]) (./experiments/Phyphox/Magnetfeld/magnetfeld.tex
-<experiments/Phyphox/Magnetfeld//img/versuchsaufbau.jpg, id=79, 375.4025pt x 829.0975pt>
+<experiments/Phyphox/Magnetfeld//img/versuchsaufbau.jpg, id=80, 375.4025pt x 829.0975pt>
 File: experiments/Phyphox/Magnetfeld//img/versuchsaufbau.jpg Graphic file (type jpg)
 <use experiments/Phyphox/Magnetfeld//img/versuchsaufbau.jpg>
 Package pdftex.def Info: experiments/Phyphox/Magnetfeld//img/versuchsaufbau.jpg  used on input line 42.
 (pdftex.def)             Requested size: 67.85707pt x 149.86366pt.
-<experiments/Phyphox/Magnetfeld//img/app.jpg, id=80, 642.4pt x 1100.11pt>
-File: experiments/Phyphox/Magnetfeld//img/app.jpg Graphic file (type jpg)
-<use experiments/Phyphox/Magnetfeld//img/app.jpg>
-Package pdftex.def Info: experiments/Phyphox/Magnetfeld//img/app.jpg  used on input line 54.
-(pdftex.def)             Requested size: 90.4784pt x 154.93759pt.
-<experiments/Phyphox/Magnetfeld//img/inklination.jpg, id=81, 383.4325pt x 280.04625pt>
+<experiments/Phyphox/Magnetfeld//img/app.png, id=81, 642.4pt x 1096.095pt>
+File: experiments/Phyphox/Magnetfeld//img/app.png Graphic file (type png)
+<use experiments/Phyphox/Magnetfeld//img/app.png>
+Package pdftex.def Info: experiments/Phyphox/Magnetfeld//img/app.png  used on input line 54.
+(pdftex.def)             Requested size: 90.4784pt x 154.37213pt.
+<experiments/Phyphox/Magnetfeld//img/inklination.jpg, id=82, 383.4325pt x 280.04625pt>
 File: experiments/Phyphox/Magnetfeld//img/inklination.jpg Graphic file (type jpg)
 <use experiments/Phyphox/Magnetfeld//img/inklination.jpg>
 Package pdftex.def Info: experiments/Phyphox/Magnetfeld//img/inklination.jpg  used on input line 65.
 (pdftex.def)             Requested size: 117.62123pt x 85.90324pt.
-<experiments/Phyphox/Magnetfeld//img/inklinationskarte.png, id=82, 827.09pt x 510.90875pt>
+<experiments/Phyphox/Magnetfeld//img/inklinationskarte.png, id=83, 827.09pt x 510.90875pt>
 File: experiments/Phyphox/Magnetfeld//img/inklinationskarte.png Graphic file (type png)
 <use experiments/Phyphox/Magnetfeld//img/inklinationskarte.png>
 Package pdftex.def Info: experiments/Phyphox/Magnetfeld//img/inklinationskarte.png  used on input line 69.
 (pdftex.def)             Requested size: 135.72105pt x 83.83635pt.
-<experiments/Phyphox/Magnetfeld//img/stärke.png, id=83, 553.06625pt x 313.17pt>
+<experiments/Phyphox/Magnetfeld//img/stärke.png, id=84, 553.06625pt x 313.17pt>
 File: experiments/Phyphox/Magnetfeld//img/stärke.png Graphic file (type png)
 <use experiments/Phyphox/Magnetfeld//img/stärke.png>
 Package pdftex.def Info: experiments/Phyphox/Magnetfeld//img/stärke.png  used on input line 73.
 (pdftex.def)             Requested size: 149.29247pt x 84.53313pt.
-<experiments/Phyphox/Magnetfeld//img/qr_code.png, id=84, 165.61874pt x 165.61874pt>
+<experiments/Phyphox/Magnetfeld//img/qr_code.png, id=85, 165.61874pt x 165.61874pt>
 File: experiments/Phyphox/Magnetfeld//img/qr_code.png Graphic file (type png)
 <use experiments/Phyphox/Magnetfeld//img/qr_code.png>
 Package pdftex.def Info: experiments/Phyphox/Magnetfeld//img/qr_code.png  used on input line 85.
 (pdftex.def)             Requested size: 45.24265pt x 45.24077pt.
  [10 <./experiments/Phyphox/Salat//img/versuchsaufbau.JPG> <./experiments/Phyphox/Salat//img/app1.PNG> <./experiments/Phyphox/Salat//img/app2.PNG> <./experiments/Phyphox/Salat//img/qr_code.png>]) (./experiments/Phyphox/Druck/druck.tex
-<experiments/Phyphox/Druck//img/versuchsaufbau.jpg, id=91, 3160.80875pt x 1900.09875pt>
+<experiments/Phyphox/Druck//img/versuchsaufbau.jpg, id=92, 3160.80875pt x 1900.09875pt>
 File: experiments/Phyphox/Druck//img/versuchsaufbau.jpg Graphic file (type jpg)
 <use experiments/Phyphox/Druck//img/versuchsaufbau.jpg>
 Package pdftex.def Info: experiments/Phyphox/Druck//img/versuchsaufbau.jpg  used on input line 43.
@@ -956,56 +956,51 @@ Overfull \hbox (16.74402pt too wide) in paragraph at lines 27--45
 []$[]$   $[]$ 
  []
 
-[11 <./experiments/Phyphox/Magnetfeld//img/versuchsaufbau.jpg> <./experiments/Phyphox/Magnetfeld//img/app.jpg> <./experiments/Phyphox/Magnetfeld//img/inklination.jpg> <./experiments/Phyphox/Magnetfeld//img/inklinationskarte.png> <./experiments/Phyphox/Magnetfeld//img/stärke.png> <./experiments/Phyphox/Magnetfeld//img/qr_code.png>]) (./experiments/Phyphox/Fallschnur/fallschnur.tex
-<experiments/Phyphox/Fallschnur//img/schraube.png, id=98, 150.5625pt x 149.55875pt>
+[11 <./experiments/Phyphox/Magnetfeld//img/versuchsaufbau.jpg> <./experiments/Phyphox/Magnetfeld//img/app.PNG> <./experiments/Phyphox/Magnetfeld//img/inklination.jpg> <./experiments/Phyphox/Magnetfeld//img/inklinationskarte.png> <./experiments/Phyphox/Magnetfeld//img/stärke.png> <./experiments/Phyphox/Magnetfeld//img/qr_code.png>]) (./experiments/Phyphox/Fallschnur/fallschnur.tex
+<experiments/Phyphox/Fallschnur//img/schraube.png, id=100, 1423.3175pt x 1317.92375pt>
 File: experiments/Phyphox/Fallschnur//img/schraube.png Graphic file (type png)
 <use experiments/Phyphox/Fallschnur//img/schraube.png>
-Package pdftex.def Info: experiments/Phyphox/Fallschnur//img/schraube.png  used on input line 40.
-(pdftex.def)             Requested size: 67.8588pt x 67.40807pt.
-<experiments/Phyphox/Fallschnur//img/app1.jpg, id=99, 642.4pt x 641.39626pt>
-File: experiments/Phyphox/Fallschnur//img/app1.jpg Graphic file (type jpg)
-<use experiments/Phyphox/Fallschnur//img/app1.jpg>
-Package pdftex.def Info: experiments/Phyphox/Fallschnur//img/app1.jpg  used on input line 43.
-(pdftex.def)             Requested size: 67.8588pt x 67.74496pt.
-<experiments/Phyphox/Fallschnur//img/versuchsaufbau.jpg, id=100, 619.31375pt x 2347.77126pt>
-File: experiments/Phyphox/Fallschnur//img/versuchsaufbau.jpg Graphic file (type jpg)
-<use experiments/Phyphox/Fallschnur//img/versuchsaufbau.jpg>
-Package pdftex.def Info: experiments/Phyphox/Fallschnur//img/versuchsaufbau.jpg  used on input line 51.
-(pdftex.def)             Requested size: 76.90718pt x 291.5362pt.
-<experiments/Phyphox/Fallschnur//img/app2.jpg, id=101, 642.4pt x 971.63pt>
-File: experiments/Phyphox/Fallschnur//img/app2.jpg Graphic file (type jpg)
-<use experiments/Phyphox/Fallschnur//img/app2.jpg>
-Package pdftex.def Info: experiments/Phyphox/Fallschnur//img/app2.jpg  used on input line 74.
-(pdftex.def)             Requested size: 108.57379pt x 164.21123pt.
+Package pdftex.def Info: experiments/Phyphox/Fallschnur//img/schraube.png  used on input line 43.
+(pdftex.def)             Requested size: 101.79079pt x 94.23485pt.
+<experiments/Phyphox/Fallschnur//img/versuchsaufbau.png, id=101, 1230.5975pt x 4047.12pt>
+File: experiments/Phyphox/Fallschnur//img/versuchsaufbau.png Graphic file (type png)
+<use experiments/Phyphox/Fallschnur//img/versuchsaufbau.png>
+Package pdftex.def Info: experiments/Phyphox/Fallschnur//img/versuchsaufbau.png  used on input line 51.
+(pdftex.def)             Requested size: 90.4784pt x 297.53076pt.
+<experiments/Phyphox/Fallschnur//img/app.png, id=102, 642.4pt x 867.24pt>
+File: experiments/Phyphox/Fallschnur//img/app.png Graphic file (type png)
+<use experiments/Phyphox/Fallschnur//img/app.png>
+Package pdftex.def Info: experiments/Phyphox/Fallschnur//img/app.png  used on input line 73.
+(pdftex.def)             Requested size: 118.52647pt x 160.0002pt.
 
-Overfull \hbox (18.0954pt too wide) in paragraph at lines 74--75
+Overfull \hbox (28.04808pt too wide) in paragraph at lines 73--74
 [][] 
  []
 
 
-Overfull \hbox (28.64723pt too wide) in alignment at lines 96--96
+Overfull \hbox (28.64723pt too wide) in alignment at lines 95--95
 [][][][] 
  []
 
 [12 <./experiments/Phyphox/Druck//img/versuchsaufbau.jpg>]) (./experiments/Phyphox/Schallgeschwindigkeit/schall.tex (./experiments/Phyphox/Schallgeschwindigkeit//ink/versuchsaufbau.pdf_tex
-<experiments/Phyphox/Schallgeschwindigkeit//ink/versuchsaufbau.pdf, id=105, page=1, 524.6681pt x 206.52448pt>
+<experiments/Phyphox/Schallgeschwindigkeit//ink/versuchsaufbau.pdf, id=106, page=1, 524.6681pt x 206.52448pt>
 File: experiments/Phyphox/Schallgeschwindigkeit//ink/versuchsaufbau.pdf Graphic file (type pdf)
 <use experiments/Phyphox/Schallgeschwindigkeit//ink/versuchsaufbau.pdf, page 1>
 Package pdftex.def Info: experiments/Phyphox/Schallgeschwindigkeit//ink/versuchsaufbau.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 400.0pt x 157.45181pt.
-<experiments/Phyphox/Schallgeschwindigkeit//ink/versuchsaufbau.pdf, id=106, page=2, 524.6681pt x 206.52448pt>
+<experiments/Phyphox/Schallgeschwindigkeit//ink/versuchsaufbau.pdf, id=107, page=2, 524.6681pt x 206.52448pt>
 File: experiments/Phyphox/Schallgeschwindigkeit//ink/versuchsaufbau.pdf Graphic file (type pdf)
 <use experiments/Phyphox/Schallgeschwindigkeit//ink/versuchsaufbau.pdf, page 2>
 Package pdftex.def Info: experiments/Phyphox/Schallgeschwindigkeit//ink/versuchsaufbau.pdf , page2 used on input line 62.
 (pdftex.def)             Requested size: 400.0pt x 157.45181pt.
 )
-<experiments/Phyphox/Schallgeschwindigkeit//img/app.png, id=107, 642.4pt x 645.41125pt>
+<experiments/Phyphox/Schallgeschwindigkeit//img/app.png, id=108, 642.4pt x 645.41125pt>
 File: experiments/Phyphox/Schallgeschwindigkeit//img/app.png Graphic file (type png)
 <use experiments/Phyphox/Schallgeschwindigkeit//img/app.png>
 Package pdftex.def Info: experiments/Phyphox/Schallgeschwindigkeit//img/app.png  used on input line 43.
 (pdftex.def)             Requested size: 90.4784pt x 90.8986pt.
- [13 <./experiments/Phyphox/Fallschnur//img/schraube.png> <./experiments/Phyphox/Fallschnur//img/app1.jpg> <./experiments/Phyphox/Fallschnur//img/versuchsaufbau.jpg> <./experiments/Phyphox/Fallschnur//img/app2.jpg>]) (./experiments/Phyphox/SchallFestkörper/schallFestkörper.tex
-<experiments/Phyphox/SchallFestkörper//img/versuchsaufbau.jpg, id=113, 2752.2825pt x 1300.86pt>
+ [13 <./experiments/Phyphox/Fallschnur//img/schraube.png> <./experiments/Phyphox/Fallschnur//img/versuchsaufbau.png> <./experiments/Phyphox/Fallschnur//img/app.png>]) (./experiments/Phyphox/SchallFestkörper/schallFestkörper.tex
+<experiments/Phyphox/SchallFestkörper//img/versuchsaufbau.jpg, id=116, 2752.2825pt x 1300.86pt>
 File: experiments/Phyphox/SchallFestkörper//img/versuchsaufbau.jpg Graphic file (type jpg)
 <use experiments/Phyphox/SchallFestkörper//img/versuchsaufbau.jpg>
 Package pdftex.def Info: experiments/Phyphox/SchallFestkörper//img/versuchsaufbau.jpg  used on input line 40.
@@ -1016,13 +1011,13 @@ Overfull \hbox (22.43448pt too wide) in paragraph at lines 26--42
  []
 
 (./experiments/Phyphox/SchallFestkörper//ink/eigenfrequenz.pdf_tex
-<experiments/Phyphox/SchallFestkörper//ink/eigenfrequenz.pdf, id=114, page=1, 597.50786pt x 845.04686pt>
+<experiments/Phyphox/SchallFestkörper//ink/eigenfrequenz.pdf, id=117, page=1, 597.50786pt x 845.04686pt>
 File: experiments/Phyphox/SchallFestkörper//ink/eigenfrequenz.pdf Graphic file (type pdf)
 <use experiments/Phyphox/SchallFestkörper//ink/eigenfrequenz.pdf, page 1>
 Package pdftex.def Info: experiments/Phyphox/SchallFestkörper//ink/eigenfrequenz.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 220.0pt x 311.14091pt.
 )
-<experiments/Phyphox/SchallFestkörper//img/n1.png, id=115, 481.04718pt x 682.04813pt>
+<experiments/Phyphox/SchallFestkörper//img/n1.png, id=118, 481.04718pt x 682.04813pt>
 File: experiments/Phyphox/SchallFestkörper//img/n1.png Graphic file (type png)
 <use experiments/Phyphox/SchallFestkörper//img/n1.png>
 Package pdftex.def Info: experiments/Phyphox/SchallFestkörper//img/n1.png  used on input line 67.
@@ -1034,35 +1029,35 @@ pdfTeX warning: pdflatex (file ./experiments/Phyphox/Schallgeschwindigkeit//ink/
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<experiments/Phyphox/Diode//img/breadboard3.png, id=122, 2503.10156pt x 1685.54718pt>
+<experiments/Phyphox/Diode//img/breadboard3.png, id=125, 2503.10156pt x 1685.54718pt>
 File: experiments/Phyphox/Diode//img/breadboard3.png Graphic file (type png)
 <use experiments/Phyphox/Diode//img/breadboard3.png>
 Package pdftex.def Info: experiments/Phyphox/Diode//img/breadboard3.png  used on input line 56.
 (pdftex.def)             Requested size: 226.19946pt x 152.30997pt.
-<experiments/Phyphox/Diode//img/screen.jpg, id=123, 642.4pt x 1086.0575pt>
+<experiments/Phyphox/Diode//img/screen.jpg, id=126, 642.4pt x 1086.0575pt>
 File: experiments/Phyphox/Diode//img/screen.jpg Graphic file (type jpg)
 <use experiments/Phyphox/Diode//img/screen.jpg>
 Package pdftex.def Info: experiments/Phyphox/Diode//img/screen.jpg  used on input line 61.
 (pdftex.def)             Requested size: 90.4784pt x 152.95847pt.
-<experiments/Phyphox/Diode//img/qr_code.png, id=124, 165.61874pt x 165.61874pt>
+<experiments/Phyphox/Diode//img/qr_code.png, id=127, 165.61874pt x 165.61874pt>
 File: experiments/Phyphox/Diode//img/qr_code.png Graphic file (type png)
 <use experiments/Phyphox/Diode//img/qr_code.png>
 Package pdftex.def Info: experiments/Phyphox/Diode//img/qr_code.png  used on input line 72.
 (pdftex.def)             Requested size: 90.4784pt x 90.47649pt.
 [15 <./experiments/Phyphox/SchallFestkörper//img/versuchsaufbau.jpg> <./experiments/Phyphox/SchallFestkörper//ink/eigenfrequenz.pdf> <./experiments/Phyphox/SchallFestkörper//img/n1.png>]) [16 <./experiments/Phyphox/Diode//img/breadboard3.png> <./experiments/Phyphox/Diode//img/screen.jpg> <./experiments/Phyphox/Diode//img/qr_code.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 41352 strings out of 477867
- 1056763 string characters out of 5834553
- 1899074 words of memory out of 5000000
- 60933 multiletter control sequences out of 15000+600000
+ 41340 strings out of 477867
+ 1056352 string characters out of 5834553
+ 1898074 words of memory out of 5000000
+ 60921 multiletter control sequences out of 15000+600000
  540976 words of font info for 56 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  108i,19n,106p,10899b,1353s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (16 pages, 49393784 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on main.pdf (16 pages, 56085626 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
+ 203 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 213 words of extra memory for PDF output out of 10000 (max. 10000000)
 

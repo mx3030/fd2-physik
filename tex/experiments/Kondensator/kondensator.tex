@@ -19,11 +19,11 @@
     \vspace{0.2cm}
 \textbf{Klassenstufe}: 9/10
 
-    \vspace{0.4cm}
+    \vspace{0.5cm}
     
     \textbf{Fachlicher Bezug}: Kondensator, Zeitkonstante, Spannungs- und Strommessung 
     
-    \vspace{0.4cm}
+    \vspace{0.5cm}
     
     \textbf{Material}: Mobile-CASSY + 2 Sensorstecker, iPad + CASSY-App, Netzgerät 30 V, Kondensator $C=0.1 \, \text{F}$, Widerstand $R = 47 \, \Omega$, Schalter, Experimentierkabel
 
@@ -69,30 +69,35 @@
             
         \end{minipage}
     
-    \vspace{0.4cm}
+    \vspace{0.5cm}
     \textbf{Aufbau}: Das Experiment besteht aus Lade- und Entladestromkreis. Ein Schalter ermöglicht einen Wechsel. Steckplätze am Mobile-CASSY messen die Stromstärke und die Spannung. Die Messung der Stromstärke (in Reihe) muss im Lade- und Entladestromkreis möglich sein. Die Spannungsmessung erfolgt parallel zum Kondensator. Das Mobile-CASSY stellt einen Wlan-Access-Point zur Verfügung. Um eine Verbindung mit dem iPad herzustellen, verbindet man sich mit dem Access-Point und startet die CASSY-App. 
     
-    \vspace{0.4cm} 
-    \begin{minipage}[]{0.75\textwidth}
-        \textbf{Durchführung}: Zu Beginn des Versuchs speichert der Kondensator keine Spannung. Der Entladestromkreis ist geschlossen. Für den Ladestromkreis wird nun eine Spannung von ca. $U=5$ V bereitgestellt. Anschließend wird die Messwertaufnahme in der CASSY-App gestartet. Lade-und Entladevorgang werden aufgezeichnet. 
+    \vspace{0.5cm} 
+    \begin{minipage}[]{0.74\textwidth}
+        \textbf{Durchführung}: Der Versuch startet mit geschlossenem Entladestromkreis. Im Ladestromkreis liegt eine Spannung $U=5$ V an. Die Messwertaufnahme in der CASSY-App wird gestartet. Lade-und Entladevorgang werden aufgezeichnet. 
 
-        \vspace{0.4cm}
-    \textbf{Ergebnis}: Man erhält die dargestellten Lade-und Entladekurven. Die schwarze Kurve entspricht dabei der gespeicherten Spannung im Kondensator. Die rote Kurve zeigt die Stromstärke.
-    \end{minipage}
-    \begin{minipage}[]{0.24\textwidth}
+        \vspace{0.5cm}
+    \textbf{Ergebnis}: Man erhält die dargestellten Lade-und Entladekurven. Die schwarze Kurve zeigt den Verlauf der gespeicherten Spannung $U_C(t)$ im Kondensator. Die rote Kurve zeigt die Stromstärke $I(t)$. Beim Aufladen gilt dabei
+\begin{align*}
+    U_C(t) = U \cdot \left( 1-e^{-\frac{t}{\tau}}\right ) \qquad I(t)=I_0 \cdot e^{-\frac{t}{\tau}} \quad \text{mit} \,\, \tau = R \cdot C
+\end{align*}
+    
+    
+\end{minipage}
+\hspace{0.05cm}    
+\begin{minipage}[]{0.24\textwidth}
         \vspace{-0.2cm}
         \begin{center}
-            \includegraphics[width=0.85\textwidth]{img/cassy}
+            \includegraphics[width=1\textwidth]{img/cassy}
         \end{center}
     \end{minipage}
   
-    \vspace{0.4cm}
-    \textbf{Didaktische Bemerkungen}: Beim Entladevorgang wird eine Umkehr in der Stromrichtung beobachtet. Vor Versuchsbeginn können dazu Hypothesen aufgestellt werden. Die gespeicherte Spannung des geladenen Kondensators führt beim Entladen zu einer Umkehr der ursprünglichen Stromrichtung. Das Aufladen wird deshalb als \glqq negative Spannung\grqq{} aufgetragen. Um Verwirrungen zu vermeiden, sollte hier aber eine ausführliche Diskussion über den Bezugspunkt (Masse) bei der Spannungsmessung erfolgen.     
+    \vspace{0.5cm}
+    \textbf{Didaktische Bemerkungen}: Beim Entladevorgang wird eine Umkehr in der Stromrichtung beobachtet. Vor Versuchsbeginn können dazu Hypothesen aufgestellt werden.      
     
-    \vspace{0.4cm}
-    \textbf{Bemerkungen}: Die Zeitkonstante $\tau=R \cdot C$ liefert die Zeit, nach der die Spannung (bzw. Stromstärke) um einen Faktor von ca. $1/3$ gefallen ist. \\
-    Um eine möglichst hohe Abtastrate der Sensorstecker zu erreichen, ist es sinnvoll Spannung-und Strommessung getrennt, an zwei verschiedenen Steckplätzen, vorzunehmen.\\
-Bei Verwendung der CASSY-App kann es zu Schwierigkeiten bei der Positionierung des Koordinatensystems kommen. Hier hilft in der Regel ein kurzer Wechsel der Steckplätze.
+    \vspace{0.5cm}
+    \textbf{Bemerkungen}: Die Zeitkonstante $\tau=R \cdot C$ entspricht der Zeit, bei der die Kondensatorspannung auf $63 \%$ ($1-1/e$) des Endwerts angestiegen, bzw. der Ladestom auf $37 \%$ ($1/e$) abgefallen ist. \\
+    Um eine möglichst hohe Abtastrate der Sensorstecker zu erreichen, ist es sinnvoll Spannung- und Strommessung getrennt, an zwei verschiedenen Steckplätzen, vorzunehmen. Außerdem kann es bei der Verwendung der CASSY-App zu Schwierigkeiten bei der Positionierung des Koordinatensystems kommen. Hier hilft in der Regel ein kurzer Wechsel der Steckplätze.
 \end{tcolorbox}
 
 
