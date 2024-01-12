@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.29)  12 JAN 2024 16:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.29)  12 JAN 2024 18:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -962,11 +962,11 @@ File: experiments/Phyphox/Fallschnur//img/schraube.png Graphic file (type png)
 <use experiments/Phyphox/Fallschnur//img/schraube.png>
 Package pdftex.def Info: experiments/Phyphox/Fallschnur//img/schraube.png  used on input line 43.
 (pdftex.def)             Requested size: 101.79079pt x 94.23485pt.
-<experiments/Phyphox/Fallschnur//img/versuchsaufbau.png, id=101, 1151.30125pt x 3993.92125pt>
-File: experiments/Phyphox/Fallschnur//img/versuchsaufbau.png Graphic file (type png)
-<use experiments/Phyphox/Fallschnur//img/versuchsaufbau.png>
-Package pdftex.def Info: experiments/Phyphox/Fallschnur//img/versuchsaufbau.png  used on input line 51.
-(pdftex.def)             Requested size: 90.4784pt x 313.8526pt.
+<experiments/Phyphox/Fallschnur//img/versuchsaufbau_qr.png, id=101, 863.47594pt x 2995.44093pt>
+File: experiments/Phyphox/Fallschnur//img/versuchsaufbau_qr.png Graphic file (type png)
+<use experiments/Phyphox/Fallschnur//img/versuchsaufbau_qr.png>
+Package pdftex.def Info: experiments/Phyphox/Fallschnur//img/versuchsaufbau_qr.png  used on input line 51.
+(pdftex.def)             Requested size: 90.4784pt x 313.86783pt.
 <experiments/Phyphox/Fallschnur//img/app.png, id=102, 642.4pt x 870.25125pt>
 File: experiments/Phyphox/Fallschnur//img/app.png Graphic file (type png)
 <use experiments/Phyphox/Fallschnur//img/app.png>
@@ -994,13 +994,18 @@ File: experiments/Phyphox/Schallgeschwindigkeit//ink/versuchsaufbau.pdf Graphic 
 Package pdftex.def Info: experiments/Phyphox/Schallgeschwindigkeit//ink/versuchsaufbau.pdf , page2 used on input line 62.
 (pdftex.def)             Requested size: 400.0pt x 157.45181pt.
 )
-<experiments/Phyphox/Schallgeschwindigkeit//img/app.png, id=108, 642.4pt x 645.41125pt>
-File: experiments/Phyphox/Schallgeschwindigkeit//img/app.png Graphic file (type png)
-<use experiments/Phyphox/Schallgeschwindigkeit//img/app.png>
-Package pdftex.def Info: experiments/Phyphox/Schallgeschwindigkeit//img/app.png  used on input line 43.
-(pdftex.def)             Requested size: 90.4784pt x 90.8986pt.
- [13 <./experiments/Phyphox/Fallschnur//img/schraube.png> <./experiments/Phyphox/Fallschnur//img/versuchsaufbau.png> <./experiments/Phyphox/Fallschnur//img/app.png>]) (./experiments/Phyphox/SchallFestkörper/schallFestkörper.tex
-<experiments/Phyphox/SchallFestkörper//img/versuchsaufbau.jpg, id=116, 2752.2825pt x 1300.86pt>
+<experiments/Phyphox/Schallgeschwindigkeit//img/app1.png, id=108, 642.4pt x 364.36125pt>
+File: experiments/Phyphox/Schallgeschwindigkeit//img/app1.png Graphic file (type png)
+<use experiments/Phyphox/Schallgeschwindigkeit//img/app1.png>
+Package pdftex.def Info: experiments/Phyphox/Schallgeschwindigkeit//img/app1.png  used on input line 60.
+(pdftex.def)             Requested size: 149.29247pt x 84.6742pt.
+<experiments/Phyphox/Schallgeschwindigkeit//img/app2.png, id=109, 838.13126pt x 392.46625pt>
+File: experiments/Phyphox/Schallgeschwindigkeit//img/app2.png Graphic file (type png)
+<use experiments/Phyphox/Schallgeschwindigkeit//img/app2.png>
+Package pdftex.def Info: experiments/Phyphox/Schallgeschwindigkeit//img/app2.png  used on input line 63.
+(pdftex.def)             Requested size: 149.29247pt x 69.90428pt.
+ [13 <./experiments/Phyphox/Fallschnur//img/schraube.png> <./experiments/Phyphox/Fallschnur//img/versuchsaufbau_qr.png> <./experiments/Phyphox/Fallschnur//img/app.png>]) (./experiments/Phyphox/SchallFestkörper/schallFestkörper.tex
+<experiments/Phyphox/SchallFestkörper//img/versuchsaufbau.jpg, id=117, 2752.2825pt x 1300.86pt>
 File: experiments/Phyphox/SchallFestkörper//img/versuchsaufbau.jpg Graphic file (type jpg)
 <use experiments/Phyphox/SchallFestkörper//img/versuchsaufbau.jpg>
 Package pdftex.def Info: experiments/Phyphox/SchallFestkörper//img/versuchsaufbau.jpg  used on input line 40.
@@ -1011,13 +1016,13 @@ Overfull \hbox (22.43448pt too wide) in paragraph at lines 26--42
  []
 
 (./experiments/Phyphox/SchallFestkörper//ink/eigenfrequenz.pdf_tex
-<experiments/Phyphox/SchallFestkörper//ink/eigenfrequenz.pdf, id=117, page=1, 597.50786pt x 845.04686pt>
+<experiments/Phyphox/SchallFestkörper//ink/eigenfrequenz.pdf, id=118, page=1, 597.50786pt x 845.04686pt>
 File: experiments/Phyphox/SchallFestkörper//ink/eigenfrequenz.pdf Graphic file (type pdf)
 <use experiments/Phyphox/SchallFestkörper//ink/eigenfrequenz.pdf, page 1>
 Package pdftex.def Info: experiments/Phyphox/SchallFestkörper//ink/eigenfrequenz.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 220.0pt x 311.14091pt.
 )
-<experiments/Phyphox/SchallFestkörper//img/n1.png, id=118, 481.04718pt x 682.04813pt>
+<experiments/Phyphox/SchallFestkörper//img/n1.png, id=119, 481.04718pt x 682.04813pt>
 File: experiments/Phyphox/SchallFestkörper//img/n1.png Graphic file (type png)
 <use experiments/Phyphox/SchallFestkörper//img/n1.png>
 Package pdftex.def Info: experiments/Phyphox/SchallFestkörper//img/n1.png  used on input line 67.
@@ -1025,39 +1030,39 @@ Package pdftex.def Info: experiments/Phyphox/SchallFestkörper//img/n1.png  used
  [14 <./experiments/Phyphox/Schallgeschwindigkeit//ink/versuchsaufbau.pdf> <./experiments/Phyphox/Schallgeschwindigkeit//ink/versuchsaufbau.pdf
 
 pdfTeX warning: pdflatex (file ./experiments/Phyphox/Schallgeschwindigkeit//ink/versuchsaufbau.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./experiments/Phyphox/Schallgeschwindigkeit//img/app.png>]) (./experiments/Phyphox/Diode/diode.tex
+> <./experiments/Phyphox/Schallgeschwindigkeit//img/app1.png> <./experiments/Phyphox/Schallgeschwindigkeit//img/app2.png>]) (./experiments/Phyphox/Diode/diode.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<experiments/Phyphox/Diode//img/breadboard3.png, id=125, 2503.10156pt x 1685.54718pt>
-File: experiments/Phyphox/Diode//img/breadboard3.png Graphic file (type png)
-<use experiments/Phyphox/Diode//img/breadboard3.png>
-Package pdftex.def Info: experiments/Phyphox/Diode//img/breadboard3.png  used on input line 56.
+<experiments/Phyphox/Diode//img/breadboard_qr.png, id=127, 2503.10156pt x 1685.54718pt>
+File: experiments/Phyphox/Diode//img/breadboard_qr.png Graphic file (type png)
+<use experiments/Phyphox/Diode//img/breadboard_qr.png>
+Package pdftex.def Info: experiments/Phyphox/Diode//img/breadboard_qr.png  used on input line 56.
 (pdftex.def)             Requested size: 226.19946pt x 152.30997pt.
-<experiments/Phyphox/Diode//img/screen.jpg, id=126, 642.4pt x 1086.0575pt>
+<experiments/Phyphox/Diode//img/screen.jpg, id=128, 642.4pt x 1086.0575pt>
 File: experiments/Phyphox/Diode//img/screen.jpg Graphic file (type jpg)
 <use experiments/Phyphox/Diode//img/screen.jpg>
 Package pdftex.def Info: experiments/Phyphox/Diode//img/screen.jpg  used on input line 61.
 (pdftex.def)             Requested size: 90.4784pt x 152.95847pt.
-<experiments/Phyphox/Diode//img/qr_code.png, id=127, 165.61874pt x 165.61874pt>
-File: experiments/Phyphox/Diode//img/qr_code.png Graphic file (type png)
-<use experiments/Phyphox/Diode//img/qr_code.png>
-Package pdftex.def Info: experiments/Phyphox/Diode//img/qr_code.png  used on input line 72.
+<experiments/Phyphox/Diode//img/qr_code_phyphox.png, id=129, 165.61874pt x 165.61874pt>
+File: experiments/Phyphox/Diode//img/qr_code_phyphox.png Graphic file (type png)
+<use experiments/Phyphox/Diode//img/qr_code_phyphox.png>
+Package pdftex.def Info: experiments/Phyphox/Diode//img/qr_code_phyphox.png  used on input line 72.
 (pdftex.def)             Requested size: 90.4784pt x 90.47649pt.
-[15 <./experiments/Phyphox/SchallFestkörper//img/versuchsaufbau.jpg> <./experiments/Phyphox/SchallFestkörper//ink/eigenfrequenz.pdf> <./experiments/Phyphox/SchallFestkörper//img/n1.png>]) [16 <./experiments/Phyphox/Diode//img/breadboard3.png> <./experiments/Phyphox/Diode//img/screen.jpg> <./experiments/Phyphox/Diode//img/qr_code.png>] (./main.aux) ) 
+[15 <./experiments/Phyphox/SchallFestkörper//img/versuchsaufbau.jpg> <./experiments/Phyphox/SchallFestkörper//ink/eigenfrequenz.pdf> <./experiments/Phyphox/SchallFestkörper//img/n1.png>]) [16 <./experiments/Phyphox/Diode//img/breadboard_qr.png> <./experiments/Phyphox/Diode//img/screen.jpg> <./experiments/Phyphox/Diode//img/qr_code_phyphox.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 41340 strings out of 477867
- 1056352 string characters out of 5834553
+ 41358 strings out of 477867
+ 1057141 string characters out of 5834553
  1898074 words of memory out of 5000000
- 60921 multiletter control sequences out of 15000+600000
+ 60937 multiletter control sequences out of 15000+600000
  540976 words of font info for 56 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  108i,19n,106p,10899b,1353s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (16 pages, 56892612 bytes).
+Output written on main.pdf (16 pages, 56434184 bytes).
 PDF statistics:
- 203 PDF objects out of 1000 (max. 8388607)
+ 205 PDF objects out of 1000 (max. 8388607)
  93 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 218 words of extra memory for PDF output out of 10000 (max. 10000000)
 

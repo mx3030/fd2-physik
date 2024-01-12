@@ -27,8 +27,8 @@
     \vspace{0.5cm}
         \textbf{Material}: ESP32 (alternativ: Arduino, Rasperry Pi), Steckbrett + Kabel, Potentiometer, Widerstand $R=220\,\Omega$, LEDs (rot, gelb, grün weiß), normale Diode, Zenerdiode ($2.4$ V), Handy + Phyphox, QR-Code des Experiments
 
-    \vspace{0.5cm}
-    \textbf{Code}: https://github.com/mx3030/fd2-physik/tree/master/code/Diode
+    %\vspace{0.5cm}
+    %\textbf{Code}: https://github.com/mx3030/fd2-physik/tree/master/code/Diode
         
     \vspace{0.5cm}
     \begin{minipage}[c]{0.2\textwidth}
@@ -53,7 +53,7 @@
 \hspace{0.5cm}
 \begin{minipage}[c]{0.5\textwidth}
     \centering
-    \includegraphics[width=1\textwidth]{img/breadboard3}
+    \includegraphics[width=1\textwidth]{img/breadboard_qr}
 \end{minipage}
 \hspace{0.5cm}
 \begin{minipage}[c]{0.2\textwidth}
@@ -69,7 +69,7 @@ In der rechten oberen Ecke der Phyphox-App wird über das + Zeichen das Experime
     \hspace{0.5cm}
     \begin{minipage}[c]{0.2\textwidth}
         \centering
-        \includegraphics[width=1\textwidth]{img/qr_code}
+        \includegraphics[width=1\textwidth]{img/qr_code_phyphox}
     \end{minipage}
 
     \vspace{0.5cm}
@@ -79,7 +79,7 @@ In der rechten oberen Ecke der Phyphox-App wird über das + Zeichen das Experime
 \textbf{Ergebnis}: Man beobachtet verschiedene Duchbruchspannungen, je nach Farbe der LEDs. 
 
 \vspace{0.5cm}
-\textbf{Bemerkungen}: Der DAC eines Mikrokontrollers ermöglicht in der Regel die Einstellung eines Spannungsbereichs von $0-3.3$ V. Da die GPIO-Pins der Mikrokontroller für maximal $3.3$ Volt ausgelegt sind, entstehen hier keine Probleme. Wird eine externe Spannungsquelle verwendet, müssen die ADC-Eingänge zusätzlich vor einer Überschreitung dieser Maximalspannung abgesichert werden. Sollen größere Spannung gemessen werden, kann im einfachsten Fall ein Spannungsteiler vorgeschaltet werden, der dann in der Software entsprechend berücksichtigt wird.
+\textbf{Bemerkungen}: Der DAC eines Mikrocontrollers ermöglicht in der Regel die Einstellung eines Spannungsbereichs von $0-3.3$ V. Da die GPIO-Pins der Mikrokontroller für maximal $3.3$ Volt ausgelegt sind, entstehen hier keine Probleme. Wird eine externe Spannungsquelle verwendet, müssen die ADC-Eingänge zusätzlich vor einer Überschreitung dieser Maximalspannung abgesichert werden. Sollen größere Spannung gemessen werden, kann im einfachsten Fall ein Spannungsteiler vorgeschaltet werden, der dann in der Software entsprechend berücksichtigt wird.
 
 \end{tcolorbox}
 
